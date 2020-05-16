@@ -8,13 +8,14 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Privacy policy</h1>
+    <p>I needed this because the Play Store said I had to have a privacy policy URL. I don't collect any information, and everything is processed on your devie only.</p>
+    <p>The source code is <a href="https://github.com/jieqiangli/QRScanner">on GitHub</a></p>
+
+    <p>Now go do something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
